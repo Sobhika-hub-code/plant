@@ -1,1 +1,1 @@
-# plant
+# Plant Disease Prediction
