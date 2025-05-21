@@ -1,0 +1,405 @@
+    {
+      "0": {
+        "plant": "Apple",
+        "disease": "Apple Scab",
+        "cause": "Caused by the fungus Venturia inaequalis, which thrives in cool, wet conditions. It infects leaves and fruits, causing dark, scaly lesions.",
+        "recovery": "Remove and destroy infected leaves and fruit. Apply fungicides like sulfur or copper-based sprays early in the growing season.",
+        "protection": "Ensure good air circulation by proper pruning, avoid overhead watering, and choose resistant apple varieties.",
+        "health_tips": "Rake and remove fallen leaves in autumn, maintain tree health with balanced fertilization, and monitor for early signs of infection."
+      },
+
+      "1": {
+        "plant": "Apple",
+        "disease": "Black Rot",
+        "cause": "Caused by the fungus Botryosphaeria obtusa, which infects leaves, fruit, and bark, leading to dark, sunken lesions.",
+        "recovery": "Prune infected branches, remove fallen leaves, and apply fungicides to prevent further spread.",
+        "protection": "Use resistant apple varieties, maintain proper tree spacing for airflow, and avoid overhead watering.",
+        "health_tips": "Regularly inspect trees for early signs of infection and apply preventive fungicide sprays during the growing season."
+      },
+      "2": {
+        "plant": "Apple",
+        "disease": "Cedar Apple Rust",
+        "cause": "Caused by the fungus Gymnosporangium juniperi-virginianae, requiring both apple and cedar trees for its life cycle.",
+        "recovery": "Remove nearby cedar hosts, apply fungicides at bud break, and prune infected leaves.",
+        "protection": "Plant resistant apple varieties and maintain a distance from juniper trees.",
+        "health_tips": "Monitor for yellow-orange spots on leaves and take action early to prevent severe infection."
+      },
+
+      "3": {
+        "plant": "Apple",
+        "disease": "Healthy",
+        "cause": "No disease detected. The plant is in a healthy state.",
+        "recovery": "Ensure continued care, including proper watering and fertilization.",
+        "protection": "Maintain good air circulation and monitor for any signs of disease.",
+        "health_tips": "Regularly inspect leaves and fruit for early symptoms of disease."
+      },
+      "4": {
+        "plant": "Blueberry",
+        "disease": "Healthy",
+        "cause": "No visible disease symptoms. The plant has proper leaf color and fruit development.",
+        "recovery": "Maintain adequate soil pH and water levels to sustain healthy growth.",
+        "protection": "Ensure proper pruning and spacing to improve air circulation and prevent fungal growth.",
+        "health_tips": "Apply mulch to retain soil moisture and control weeds."
+      },
+      "5": {
+        "plant": "Cherry (including sour)",
+        "disease": "Healthy",
+        "cause": "No symptoms of bacterial or fungal infections. Leaves and fruits are developing normally.",
+        "recovery": "Continue regular watering and nutrient management to support tree health.",
+        "protection": "Monitor for pests like aphids and scale insects to prevent infestations.",
+        "health_tips": "Prune the tree in late winter to remove dead or diseased branches."
+      },
+      "6": {
+        "plant": "Cherry (including sour)",
+        "disease": "Powdery Mildew",
+        "cause": "Caused by the fungus Podosphaera clandestina, appearing as white powdery patches on leaves and fruit.",
+        "recovery": "Apply sulfur-based or fungicidal sprays to affected areas.",
+        "protection": "Improve air circulation by pruning trees and avoiding excessive nitrogen fertilization.",
+        "health_tips": "Monitor humidity levels and remove infected plant debris to prevent reinfection."
+      },
+      "7": {
+        "plant": "Corn (Maize)",
+        "disease": "Cercospora Leaf Spot",
+        "cause": "Caused by the fungus Cercospora zeae-maydis, which thrives in warm, humid conditions and leads to elongated brown leaf lesions.",
+        "recovery": "Use foliar fungicides and remove infected plant debris to lower fungal spread.",
+        "protection": "Practice crop rotation and plant-resistant maize varieties to minimize infection risk.",
+        "health_tips": "Regular field scouting helps in early detection and timely application of control measures."
+      },
+
+      "8": {
+         "plant": "Corn (Maize)",
+         "disease": "Common Rust",
+         "cause": "Caused by the fungus Puccinia sorghi, which spreads through airborne spores in humid and cool conditions, forming rust-colored pustules on leaves.",
+         "recovery": "Apply fungicides if the infection is severe, remove infected leaves to reduce spore spread, and ensure proper plant spacing for air circulation.",
+         "protection": "Plant rust-resistant corn varieties, avoid overhead watering, and rotate crops to prevent fungal build-up in the soil.",
+         "health_tips": "Monitor plants for early signs of rust, maintain balanced soil nutrients, and improve field drainage to reduce excess moisture."
+      },
+
+      "9": {
+        "plant": "Corn (Maize)",
+        "disease": "Healthy",
+        "cause": "No disease detected. The plant is in a healthy state.",
+        "recovery": "Maintain proper irrigation and nutrient balance to support growth.",
+        "protection": "Ensure proper spacing between plants to avoid overcrowding and stress.",
+         "health_tips": "Regular crop rotation and weed control will help maintain plant health."
+      },
+      "10": {
+        "plant": "Corn (Maize)",
+        "disease": "Northern Leaf Blight",
+        "cause": "Caused by the fungus Exserohilum turcicum, leading to elongated, grayish-green leaf lesions.",
+        "recovery": "Apply fungicides if necessary and remove infected plant debris to reduce fungal spores.",
+        "protection": "Plant resistant corn varieties and rotate crops to minimize disease pressure.",
+        "health_tips": "Ensure proper field drainage and avoid overhead irrigation to reduce moisture levels that favor fungal growth."
+      },
+
+      "11": {
+        "plant": "Corn",
+        "disease": "Gray Leaf Spot",
+        "cause": "Caused by the fungus Cercospora zeae-maydis, leading to rectangular gray lesions on leaves.",
+        "recovery": "Use foliar fungicides at early infection stages and remove infected crop residues.",
+        "protection": "Plant resistant hybrids and use no-till farming to reduce fungal spread.",
+        "health_tips": "Maintain proper plant spacing and avoid excessive irrigation."
+      },
+
+      "12": {
+        "plant": "Grape",
+        "disease": "Black Rot",
+        "cause": "Caused by the fungus Guignardia bidwellii, which affects leaves, stems, and fruit, causing black shriveled berries.",
+        "recovery": "Remove and destroy infected berries and leaves; apply fungicides during the growing season.",
+        "protection": "Maintain good vineyard sanitation and plant disease-resistant grape varieties.",
+        "health_tips": "Ensure proper pruning and spacing to improve air circulation and reduce moisture retention."
+      },
+
+      "13": {
+        "plant": "Grape",
+        "disease": "Esca (Black Measles)",
+        "cause": "A complex fungal disease caused by Phaeomoniella chlamydospora and other fungi, leading to leaf scorching and internal wood decay.",
+        "recovery": "Prune out infected vines, apply wound protection, and improve vineyard drainage.",
+        "protection": "Avoid excessive pruning wounds and ensure optimal nutrition for vine health.",
+        "health_tips": "Regularly monitor vine health and remove symptomatic plants to prevent disease spread."
+      },
+      
+      "14": {
+        "plant": "Grape",
+        "disease": "Healthy",
+        "cause": "No disease detected. The plant is in a healthy state.",
+        "recovery": "Regular pruning and proper fertilization will maintain plant health.",
+        "protection": "Avoid excessive moisture around the roots to prevent fungal infections.",
+        "health_tips": "Ensure good vineyard sanitation and monitor for early signs of disease."
+      },
+      "15": {
+        "plant": "Grape",
+        "disease": "Leaf Blight (Isariopsis Leaf Spot)",
+        "cause": "Caused by the fungus Pseudocercospora vitis, which leads to brown leaf spots and premature leaf drop.",
+        "recovery": "Apply appropriate fungicides and remove infected leaves to prevent disease spread.",
+        "protection": "Improve vineyard air circulation and avoid excessive leaf wetness.",
+        "health_tips": "Monitor plants regularly and practice good pruning techniques to minimize infection risks."
+      },
+      "16": {
+        "plant": "Orange",
+        "disease": "Haunglongbing (Citrus Greening)",
+        "cause": "Caused by the bacterium Candidatus Liberibacter, transmitted by psyllid insects.",
+        "recovery": "No known cure. Remove and destroy infected trees to prevent spread.",
+        "protection": "Control psyllid populations using insecticides and plant resistant varieties.",
+        "health_tips": "Regularly inspect trees for early signs such as yellowing leaves and misshapen fruit."
+      },
+      "17": {
+        "plant": "Peach",
+        "disease": "Bacterial Spot",
+        "cause": "Caused by the bacterium Xanthomonas arboricola, leading to dark spots on leaves and fruit.",
+        "recovery": "Apply copper-based bactericides and prune infected branches.",
+        "protection": "Avoid overhead irrigation and ensure good air circulation.",
+        "health_tips": "Plant resistant varieties and maintain proper orchard hygiene."
+      },
+      "18": {
+        "plant": "Peach",
+        "disease": "Healthy",
+        "cause": "No signs of fungal, bacterial, or viral infections. Leaves and fruit are developing normally.",
+        "recovery": "Maintain regular watering and fertilization to promote strong tree growth.",
+        "protection": "Monitor for common pests like peach tree borers and aphids.",
+        "health_tips": "Prune trees regularly to prevent overcrowding and improve air circulation."
+      },
+      "19": {
+        "plant": "Pepper Bell",
+        "disease": "Bacterial Spot",
+        "cause": "Caused by Xanthomonas bacteria, spreading through water splashes, contaminated tools, and infected seeds. It thrives in warm, humid conditions and can spread rapidly.",
+        "recovery": "Remove infected leaves and avoid overhead watering to reduce spread. Apply copper-based fungicides regularly and maintain proper sanitation.",
+        "protection": "Use disease-resistant varieties and organic mulches to reduce soil splash. Rotate crops annually to prevent bacterial buildup.",
+        "health_tips": "Sanitize tools, avoid working with wet plants, and inspect regularly for early symptoms. Implement proper irrigation to minimize leaf wetness."
+      },
+      "20": {
+        "plant": "Pepper Bell",
+        "disease": "Healthy",
+        "cause": "No disease present, indicating a well-maintained plant with proper care, watering, and balanced nutrients.",
+        "recovery": "Continue providing proper nutrition and watering. Regularly inspect for any early signs of stress or disease.",
+        "protection": "Use organic fertilizers and maintain proper plant spacing for airflow. Keep soil well-drained and avoid excessive watering.",
+        "health_tips": "Monitor for pests, enrich soil with compost, and provide adequate sunlight for sustained strong growth."
+      },
+      "21": {
+        "plant": "Potato",
+        "disease": "Early Blight",
+        "cause": "Caused by Alternaria solani, a fungus thriving in warm, humid environments, spreading through spores carried by wind and rain.",
+        "recovery": "Remove infected leaves and apply fungicides containing chlorothalonil or copper. Strengthen plant resistance with proper nutrition.",
+        "protection": "Ensure proper plant spacing for airflow, rotate crops every season, and apply organic mulch to prevent fungal spread.",
+        "health_tips": "Water at the base, remove plant debris, and avoid excessive nitrogen fertilizers, which weaken plant resistance."
+      },
+      "22": {
+        "plant": "Potato",
+        "disease": "Healthy",
+        "cause": "No disease detected; plant is thriving with proper care, balanced nutrition, and favorable environmental conditions.",
+        "recovery": "Maintain consistent watering and fertilization to ensure sustained plant health. Monitor for early signs of stress or disease.",
+        "protection": "Use well-drained soil and crop rotation techniques. Ensure plants receive adequate sunlight and airflow.",
+        "health_tips": "Monitor regularly for pests, apply organic compost, and maintain proper spacing to encourage healthy growth."
+      },
+      "23": {
+        "plant": "Potato",
+        "disease": "Late Blight",
+        "cause": "Caused by Phytophthora infestans, a water mold that spreads through infected soil, rain, and wind, thriving in cool, moist conditions.",
+        "recovery": "Remove infected leaves and destroy them away from crops. Apply fungicides such as mancozeb or chlorothalonil for effective control.",
+        "protection": "Plant resistant potato varieties, improve soil drainage, and ensure adequate plant spacing to reduce humidity.",
+        "health_tips": "Avoid excessive watering, ensure good ventilation, and regularly check for symptoms to take early preventive action."
+      }, 
+      "24": {
+        "plant": "Raspberry",
+        "disease": "Healthy",
+        "cause": "No visible signs of disease. The plant exhibits proper leaf and fruit growth.",
+        "recovery": "Ensure consistent watering and mulching to retain soil moisture.",
+        "protection": "Check for common pests like spider mites and thrips.",
+        "health_tips": "Use well-draining soil and avoid waterlogging to prevent root diseases."
+      },
+      "25": {
+        "plant": "Rice",
+        "disease": "Brown Spot",
+        "cause": "Caused by Bipolaris oryzae, leading to brown lesions on leaves and poor grain filling.",
+        "recovery": "Apply potassium-based fertilizers and use seed treatment with fungicides.",
+        "protection": "Rotate crops and ensure balanced soil nutrition.",
+        "health_tips": "Maintain proper water management and avoid nutrient deficiencies."
+      },
+      "26": {
+        "plant": "Rice",
+        "disease": "Healthy",
+        "cause": "No visible symptoms of disease. The plant is in good health with proper growth and leaf structure.",
+        "recovery": "Maintain proper irrigation and avoid waterlogging to sustain healthy growth.",
+        "protection": "Ensure balanced fertilization and monitor for potential pest attacks to prevent diseases.",
+        "health_tips": "Regularly inspect leaves for early signs of stress and maintain proper nutrient levels."
+      },
+      "27": {
+        "plant": "Rice",
+        "disease": "Leaf Blast",
+        "cause": "Caused by Magnaporthe oryzae, leading to leaf lesions and reduced grain production.",
+        "recovery": "Apply fungicides and remove infected plant residues.",
+        "protection": "Use blast-resistant rice varieties and avoid excessive nitrogen fertilization.",
+        "health_tips": "Ensure proper drainage and avoid prolonged leaf wetness."
+      },
+
+      "28": {
+        "plant": "Rice",
+        "disease": "Neck Blast",
+        "cause": "A severe form of blast caused by Magnaporthe oryzae, affecting panicle and grain development.",
+        "recovery": "Apply systemic fungicides at the booting stage to protect panicles.",
+        "protection": "Use resistant rice varieties and ensure proper nutrient management.",
+        "health_tips": "Avoid excess nitrogen fertilizers and monitor fields regularly."
+      },
+      "29": {
+        "plant": "Soybean",
+        "disease": "Healthy",
+        "cause": "No symptoms of fungal, bacterial, or viral infections. Leaves and pods are developing well.",
+        "recovery": "Continue applying balanced fertilizers to support growth.",
+        "protection": "Monitor for soybean aphids and rust fungus to prevent future issues.",
+       "health_tips": "Rotate crops yearly to maintain soil health and prevent disease buildup."
+      },
+      "30": {
+        "plant": "Squash",
+        "disease": "Powdery Mildew",
+        "cause": "Caused by the fungus Podosphaera xanthii, appearing as white powdery spots on leaves.",
+        "recovery": "Apply neem oil or sulfur-based fungicides to affected plants.",
+        "protection": "Provide adequate spacing between plants to improve air circulation.",
+        "health_tips": "Water plants at the base to avoid excess moisture on leaves."
+      },
+      "31": {
+        "plant": "Strawberry",
+        "disease": "Healthy",
+        "cause": "No visible disease symptoms. The plant has strong foliage and proper fruit development.",
+        "recovery": "Continue proper watering and fertilization to sustain fruit yield.",
+        "protection": "Monitor for pests like spider mites and whiteflies.",
+        "health_tips": "Mulch around the plants to reduce soil splash and prevent fungal infections."
+      },
+      "32": {
+        "plant": "Strawberry",
+        "disease": "Leaf Scorch",
+        "cause": "Caused by fungal pathogens like Diplocarpon earlianum, leading to reddish-brown leaf spots.",
+        "recovery": "Remove infected leaves and apply fungicides if necessary.",
+        "protection": "Ensure proper air circulation and avoid overhead watering.",
+        "health_tips": "Use resistant cultivars and maintain optimal soil fertility."
+      },
+      "33": {
+        "plant": "Sugarcane",
+        "disease": "Bacterial Blight",
+        "cause": "Caused by Xanthomonas albilineans, leading to leaf streaking and plant stunting.",
+        "recovery": "Remove infected plants and apply copper-based bactericides.",
+        "protection": "Plant resistant sugarcane varieties and ensure proper field sanitation.",
+        "health_tips": "Avoid water stress and use disease-free planting materials."
+      },
+      "34": {
+        "plant": "Sugarcane",
+        "disease": "Healthy",
+        "cause": "No signs of fungal, bacterial, or viral infections. The plant exhibits normal growth.",
+        "recovery": "Keep soil well-drained and provide essential nutrients to sustain strong crop development.",
+        "protection": "Avoid overcrowding and use resistant varieties to minimize future disease risks.",
+        "health_tips": "Monitor for insect pests like borers and aphids that can weaken the plant even in a healthy state."
+      },
+      "35": {
+        "plant": "Sugarcane",
+        "disease": "Red Rot",
+        "cause": "Caused by Colletotrichum falcatum, leading to reddening of the stalk and wilting.",
+        "recovery": "Use disease-resistant sugarcane varieties and destroy infected plant parts.",
+        "protection": "Avoid waterlogging and use balanced fertilizers to strengthen plant resistance.",
+        "health_tips": "Rotate crops and ensure proper drainage."
+      },
+      "36": {
+        "plant": "Tomato",
+        "disease": "Target Spot",
+        "cause": "Caused by Corynespora cassiicola, a fungus that thrives in warm, humid conditions and spreads through wind and water.",
+        "recovery": "Remove infected leaves and apply copper-based fungicides. Improve airflow by spacing plants properly.",
+        "protection": "Avoid overhead watering and use drip irrigation. Plant disease-resistant tomato varieties when available.",
+        "health_tips": "Inspect leaves for brown spots, keep soil well-drained, and avoid excessive nitrogen fertilizers."
+      },
+      "37": {
+        "plant": "Tomato",
+        "disease": "Tomato Mosaic Virus",
+        "cause": "Spread through infected seeds, tools, and human touch. Insects like aphids can also contribute to transmission.",
+        "recovery": "There is no cure; remove infected plants immediately. Sanitize tools and avoid handling healthy plants after touching infected ones.",
+        "protection": "Use virus-resistant seeds and control insect vectors. Implement proper crop rotation strategies.",
+        "health_tips": "Monitor plants for mottled or wrinkled leaves. Keep the growing area clean and practice strict hygiene."
+      },
+      "38": {
+        "plant": "Tomato",
+        "disease": "Tomato Yellow Leaf Curl Virus",
+        "cause": "Transmitted by whiteflies, this virus weakens plants, causing curled, yellowing leaves and stunted growth.",
+        "recovery": "No direct cure; remove infected plants to prevent further spread. Control whiteflies using insecticidal soaps or neem oil.",
+        "protection": "Use disease-resistant varieties and cover plants with insect netting. Keep weeds and alternative hosts away.",
+        "health_tips": "Inspect plants regularly for whitefly activity. Avoid planting tomatoes near susceptible crops."
+      },
+      "39": {
+        "plant": "Tomato",
+        "disease": "Bacterial Spot",
+        "cause": "Caused by Xanthomonas bacteria, spreading through contaminated water, seeds, and tools. It thrives in warm, wet conditions and can lead to severe leaf loss.",
+        "recovery": "Remove infected leaves and apply copper-based bactericides. Reduce moisture by ensuring proper air circulation around plants.",
+        "protection": "Use disease-free seeds, avoid overhead watering, and rotate crops regularly. Apply organic mulch to prevent soil splash.",
+        "health_tips": "Sterilize tools frequently, monitor plants for early symptoms, and keep garden areas clean to prevent bacterial buildup."
+      },
+      "40": {
+        "plant": "Tomato",
+        "disease": "Early Blight",
+        "cause": "Caused by Alternaria solani, a fungal pathogen that spreads through wind, rain, and contaminated soil, affecting leaves and stems.",
+        "recovery": "Prune infected leaves and apply copper or chlorothalonil-based fungicides. Strengthen plant resistance with balanced nutrition.",
+        "protection": "Space plants properly for airflow, rotate crops every season, and use organic mulch to prevent fungal spore spread.",
+        "health_tips": "Water at the base, remove fallen debris, and avoid excessive nitrogen fertilizers that promote weak growth."
+      },
+      "41": {
+        "plant": "Tomato",
+        "disease": "Healthy",
+        "cause": "No disease present; plant is thriving under optimal conditions with proper care, watering, and nutrition.",
+        "recovery": "Continue regular watering, fertilization, and pest monitoring to sustain plant health. Inspect for early disease symptoms.",
+        "protection": "Use disease-resistant varieties, maintain proper spacing, and apply mulch to retain moisture and regulate temperature.",
+        "health_tips": "Ensure adequate sunlight, prune excess foliage for airflow, and monitor for pests or diseases regularly."
+      },
+      "42": {
+        "plant": "Tomato",
+        "disease": "Late Blight",
+        "cause": "Caused by Phytophthora infestans, a water mold that spreads via wind and rain, thriving in cool, wet conditions.",
+        "recovery": "Remove and destroy infected leaves immediately. Apply fungicides like chlorothalonil to slow disease progression.",
+        "protection": "Use disease-resistant varieties, ensure proper spacing, and apply preventive fungicides before rainy periods.",
+        "health_tips": "Avoid overhead watering, rotate crops annually, and inspect plants frequently for early symptoms."
+      },
+      "43": {
+        "plant": "Tomato",
+        "disease": "Leaf Mold",
+        "cause": "Caused by Cladosporium fulvum, a fungus thriving in humid conditions, spreading through air and water droplets.",
+        "recovery": "Improve ventilation, remove infected leaves, and apply copper-based fungicides to reduce fungal spread.",
+        "protection": "Use resistant varieties, avoid overcrowding, and water at the base to keep foliage dry.",
+        "health_tips": "Monitor for yellow patches on leaves, prune for airflow, and avoid excessive nitrogen fertilization."
+      },
+      "44": {
+        "plant": "Tomato",
+        "disease": "Septoria Leaf Spot",
+        "cause": "Caused by Septoria lycopersici, a fungal disease spread through rain splashes and contaminated plant debris.",
+        "recovery": "Remove infected leaves and apply fungicides like chlorothalonil to control spread. Improve air circulation.",
+        "protection": "Ensure plants are spaced properly, use mulch to prevent soil splash, and avoid overhead watering.",
+        "health_tips": "Water in the morning to allow leaves to dry, clean up plant debris, and monitor for early signs."
+      },
+      "45": {
+        "plant": "Tomato",
+        "disease": "Spider Mites (Two-Spotted Spider Mite)",
+        "cause": "Caused by Tetranychus urticae, tiny pests thriving in dry, hot conditions. They suck plant sap, weakening foliage and causing yellowing.",
+        "recovery": "Spray plants with water to dislodge mites or apply insecticidal soap. Introduce natural predators like ladybugs.",
+        "protection": "Increase humidity around plants, mist regularly, and avoid excessive pesticide use that kills beneficial insects.",
+        "health_tips": "Check the undersides of leaves for mites, remove infested leaves, and maintain garden hygiene to prevent spread."
+      },
+      "46": {
+        "plant": "Wheat",
+        "disease": "Brown Rust",
+        "cause": "Caused by Puccinia triticina, leading to rust-colored pustules on leaves and stems.",
+        "recovery": "Apply fungicides and use resistant wheat cultivars.",
+        "protection": "Practice crop rotation and remove alternate host plants like barberry.",
+        "health_tips": "Monitor fields for early symptoms and implement timely control measures."
+      },
+      "47": {
+        "plant": "Wheat",
+        "disease": "Healthy",
+        "cause": "The plant shows no indications of rust, blight, or fungal infections. Growth is optimal.",
+        "recovery": "Ensure proper irrigation and nitrogen application to maintain high-quality grain production.",
+        "protection": "Rotate crops and use certified disease-free seeds to prevent future infections.",
+        "health_tips": "Keep an eye on weather conditions and apply preventive fungicides if needed during damp seasons."
+      },
+      "48": {
+        "plant": "Wheat",
+        "disease": "Yellow Rust",
+        "cause": "Caused by Puccinia striiformis, leading to yellow pustules in stripe patterns on leaves.",
+        "recovery": "Apply systemic fungicides and remove infected debris.",
+        "protection": "Use resistant wheat varieties and avoid planting in infected regions.",
+        "health_tips": "Ensure good air circulation and avoid excessive nitrogen fertilization."
+      }
+  
+  
+}
