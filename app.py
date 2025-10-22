@@ -28,9 +28,9 @@ if "page" not in st.session_state:
     st.session_state.page = "home"  # Default page
 
 # Paths
-user_data_path = "D:/Individual Project39/pages/user_data.xlsx"
-model_path = "D:/Individual Project39/models/plant_disease_model.h5"
-json_path = "D:/Individual Project39/data/disease_info.json"
+user_data_path = "pages/user_data.xlsx"
+model_path = "modelsplant_disease_model.h5"
+json_path = "data/disease_info.json"
 
 
 # Load or create user data
@@ -873,4 +873,5 @@ elif st.session_state.page == "main":
 elif st.session_state.page == "about":
     show_about()
 elif st.session_state.page == "feedback":
+
     show_feedback()
