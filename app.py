@@ -5,7 +5,6 @@ import random
 import string
 from PIL import Image
 import numpy as np
-from tensorflow.keras.models import load_model
 import tensorflow_hub as hub
 import json
 import random
@@ -29,7 +28,8 @@ if "page" not in st.session_state:
 
 # Paths
 user_data_path = "pages/user_data.xlsx"
-model_path = "modelsplant_disease_model.h5"
+model_path = "models/plant_disease_model.tflite"
+
 json_path = "data/disease_info.json"
 
 
@@ -44,19 +44,19 @@ def save_users(users_df):
     users_df.to_excel(user_data_path, index=False, engine="openpyxl")
 
 
-def load_plant_disease_model():
+def load_plant_disease_model_tflite():
     try:
-        model = load_model(model_path, custom_objects={'KerasLayer': hub.KerasLayer}, compile=False)
-       # st.success("✅ Model loaded successfully!")
-        return model
+        interpreter = tf.lite.Interpreter(model_path=model_path)
+        interpreter.allocate_tensors()
+        input_details = interpreter.get_input_details()
+        output_details = interpreter.get_output_details()
+        return interpreter, input_details, output_details
     except Exception as e:
-        st.error(f"❌ Error loading model: {e}")
-        return None
+        st.error(f"❌ Error loading TFLite model: {e}")
+        st.stop()
 
-model = load_plant_disease_model()
-if model is None:
-    st.error("Model could not be loaded. Please check the file path.")
-    st.stop()
+# Load TFLite model
+interpreter, input_details, output_details = load_plant_disease_model_tflite()
 
 
 # ✅ Load and ensure `disease_info` keys are strings
@@ -145,7 +145,7 @@ def set_background(image_path):
 
 
 def show_home():
-    set_background("D:/Individual Project39/bc2.png")
+    set_background("bc2.png")
     
     st.markdown("""
     <style>
@@ -191,7 +191,7 @@ def is_valid_phone(phone):
 
 # ✅ Function to Show Signup Page
 def show_signup():
-    set_background("D:/Individual Project39/sc1.png")
+    set_background("sc1.png")
 
     # ✅ Ensure session state is initialized
     if "page" not in st.session_state:
@@ -291,7 +291,7 @@ def generate_captcha():
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
 
 def show_login():
-    set_background("D:/Individual Project39/lc.png")
+    set_background("lc.png")
 
     # ✅ Include CSS for Styling
     st.markdown(
@@ -405,7 +405,7 @@ def preprocess_image(image):
     return np.expand_dims(img_array, axis=0)
 
 def show_dashboard():
-    set_background("D:/Individual Project39/l1.png")
+    set_background("l1.png")
     st.markdown(
         """
         <style>
@@ -514,8 +514,12 @@ def show_dashboard():
             if st.button("🔍 Predict"):
                 img_array = preprocess_image(image)
                 try:
-                    predictions = model.predict(img_array)
-                    predicted_class = int(np.argmax(predictions, axis=1)[0])
+                    # Set input
+                    interpreter.set_tensor(input_details[0]['index'], img_array)
+                    interpreter.invoke()
+                    predictions = interpreter.get_tensor(output_details[0]['index'])
+                    predicted_class = int(np.argmax(predictions))
+
                     class_name = class_labels[predicted_class] if predicted_class < len(class_labels) else "Unknown"
                     st.subheader(f"🔢 Predicted Class: {predicted_class} ({class_name})")
 
@@ -541,7 +545,7 @@ def logout():
 
 
 def show_about():
-    set_background("D:/Individual Project39/u.png")
+    set_background("u.png")
 
     # Animated Title
     st.markdown("""
@@ -766,7 +770,7 @@ def save_feedback_to_excel(name, email, message):
         st.error(f"⚠️ Error saving feedback to Excel: {e}")
 
 def show_feedback():
-    set_background("D:/Individual Project39/s2.jpg")
+    set_background("s2.jpg")
 
     st.markdown(
         f"""
@@ -875,3 +879,4 @@ elif st.session_state.page == "about":
 elif st.session_state.page == "feedback":
 
     show_feedback()
+
