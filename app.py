@@ -522,32 +522,32 @@ def show_dashboard():
             st.markdown('</div><br>', unsafe_allow_html=True)
 
             if st.button("🔍 Predict"):
-    img_array = preprocess_image(image).astype('float32')  # ensure float32
-    try:
-        # Set input and run TFLite interpreter
-        interpreter.set_tensor(input_details[0]['index'], img_array)
-        interpreter.invoke()
-
-        # Get predictions
-        predictions = interpreter.get_tensor(output_details[0]['index'])
-        predicted_class = int(np.argmax(predictions))
-        class_name = class_labels[predicted_class] if predicted_class < len(class_labels) else "Unknown"
-        st.subheader(f"🔢 Predicted Class: {predicted_class} ({class_name})")
-
-        predicted_class_str = str(predicted_class)
-        if predicted_class_str in disease_info:
-            info = disease_info[predicted_class_str]
-            display_box("🌿 Plant", info.get('plant', "N/A"))
-            display_box("🦠 Disease", info.get('disease', "N/A"))
-            display_box("⚠️ Cause", info.get('cause', "N/A"))
-            display_box("🛠 Recovery", info.get('recovery', "N/A"))
-            display_box("🛡 Protection", info.get('protection', "N/A"))
-            display_box("💡 Health Tips", info.get('health_tips', "N/A"))
-        else:
-            st.error(f"⚠️ No data available for class **{predicted_class} ({class_name})**.")
-            st.warning("🔍 Debug: Check if this class exists in `disease_info.json`.")
-    except Exception as e:
-        st.error(f"❌ Prediction error: {e}")
+                img_array = preprocess_image(image).astype('float32')  # ensure float32
+                try:
+                    # Set input and run TFLite interpreter
+                    interpreter.set_tensor(input_details[0]['index'], img_array)
+                    interpreter.invoke()
+            
+                    # Get predictions
+                    predictions = interpreter.get_tensor(output_details[0]['index'])
+                    predicted_class = int(np.argmax(predictions))
+                    class_name = class_labels[predicted_class] if predicted_class < len(class_labels) else "Unknown"
+                    st.subheader(f"🔢 Predicted Class: {predicted_class} ({class_name})")
+            
+                    predicted_class_str = str(predicted_class)
+                    if predicted_class_str in disease_info:
+                        info = disease_info[predicted_class_str]
+                        display_box("🌿 Plant", info.get('plant', "N/A"))
+                        display_box("🦠 Disease", info.get('disease', "N/A"))
+                        display_box("⚠️ Cause", info.get('cause', "N/A"))
+                        display_box("🛠 Recovery", info.get('recovery', "N/A"))
+                        display_box("🛡 Protection", info.get('protection', "N/A"))
+                        display_box("💡 Health Tips", info.get('health_tips', "N/A"))
+                    else:
+                        st.error(f"⚠️ No data available for class **{predicted_class} ({class_name})**.")
+                        st.warning("🔍 Debug: Check if this class exists in `disease_info.json`.")
+                except Exception as e:
+                    st.error(f"❌ Prediction error: {e}")
 
 
 def logout():
@@ -890,5 +890,6 @@ elif st.session_state.page == "about":
 elif st.session_state.page == "feedback":
 
     show_feedback()
+
 
 
