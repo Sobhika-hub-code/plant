@@ -5,7 +5,6 @@ import random
 import string
 from PIL import Image
 import numpy as np
-import tensorflow_hub as hub
 import json
 import random
 import string
@@ -890,6 +889,7 @@ elif st.session_state.page == "about":
 elif st.session_state.page == "feedback":
 
     show_feedback()
+
 
 
 
