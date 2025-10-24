@@ -30,7 +30,7 @@ user_data_path = "pages/user_data.xlsx"
 import tensorflow as tf
 
 # Load TFLite model
-tflite_model_path = "models/plant_disease_model_small.tflite"
+tflite_model_path = "model/plant_disease_model_small.tflite"
 interpreter = tf.lite.Interpreter(model_path=tflite_model_path)
 interpreter.allocate_tensors()
 
@@ -889,6 +889,7 @@ elif st.session_state.page == "about":
 elif st.session_state.page == "feedback":
 
     show_feedback()
+
 
 
 
