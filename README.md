@@ -1,22 +1,22 @@
-# 🌿 Plant Disease Prediction
+# Plant Disease Prediction
 
 This project uses **machine learning** to detect plant diseases from uploaded leaf images.  
 It identifies the **plant type**, **disease name**, and **cause**, and provides **solutions** to help the plant recover and stay healthy.
 
-### 🧠 Features
+### Features
 - Predicts disease from an uploaded leaf image  
 - Displays plant type, disease name, and cause of infection  
 - Suggests solutions and prevention steps  
 - Supports multiple plant types (Tomato, Potato, Pepper, etc.)
 
-### ⚙️ Technologies Used
+### Technologies Used
 - Python  
 - TensorFlow / Keras  
 - NumPy  
 - Pandas  
 - Streamlit (for web interface)
 
-### 📊 Dataset
+### Dataset
 The dataset contains labeled leaf images for:
 - Tomato  
 - Potato  
@@ -24,7 +24,7 @@ The dataset contains labeled leaf images for:
 
 Each class includes both **healthy** and **diseased** samples.
 
-### 🚀 How It Works
+### How It Works
 1. User uploads a leaf image.  
 2. The trained model predicts the disease label.  
 3. The app displays the plant name, disease name, cause, and recovery solutions.
