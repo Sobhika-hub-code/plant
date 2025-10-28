@@ -29,7 +29,7 @@ Each class includes both **healthy** and **diseased** samples.
 2. The trained model predicts the disease label.  
 3. The app displays the plant name, disease name, cause, and recovery solutions.
 
-### 📈 Future Improvements
+###  Future Improvements
 - Add more plant categories  
 - Improve model accuracy with larger datasets  
 - Enhance user interface for mobile users
