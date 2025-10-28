@@ -33,4 +33,4 @@ Each class includes both **healthy** and **diseased** samples.
 - Add more plant categories  
 - Improve model accuracy with larger datasets  
 - Enhance user interface for mobile users
-# Plant Disease Prediction
+
